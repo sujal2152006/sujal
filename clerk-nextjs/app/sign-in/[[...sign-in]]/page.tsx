@@ -13,9 +13,7 @@ export default function SignInPage() {
         identifier: email,
         password,
       });
-      // Auto-redirect on success
-        window.location.href = '/';
-      }
+      window.location.href = '/';
     } catch (err) {
       console.error(err);
     }
